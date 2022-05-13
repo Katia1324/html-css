@@ -8,14 +8,15 @@
       cursor: pointer;
       position: relative;
     }
-    .text:hover .toolpit {
+    .text:hover .tooltip {
       display: block;
     }
     .tooltip {
+    
       position: absolute;
       border: none;
       cursor: pointer;
-      display: none;
+      display: block;
       background: grey;
       color: white;
       border: 4px;
