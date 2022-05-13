@@ -1,6 +1,11 @@
 .header {
+    width: calc(46%);
     font-size: 74px;
     text-align: center;
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    padding: 5px; /* Поля вокруг текста */
+    text-overflow: ellipsis;
 }
 .centr {
     height: 200px;
@@ -10,4 +15,6 @@
     line-height: 200px;
     vertical-align: middle;
 }
+
+    
 
