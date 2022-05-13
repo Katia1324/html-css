@@ -1,8 +1,15 @@
+* {
+  box-sizing: border-box;
+}
 .gallery {
   display: flex;
 }
 .thumb {
+  
   margin: 8px;
   overflow: scroll;
   cursor: all-scroll;
+}
+body {
+    display: flex;
 }
