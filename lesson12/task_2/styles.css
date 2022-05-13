@@ -1,5 +1,5 @@
 .header {
-    width: calc(46%);
+    width: calc(50%);
     font-size: 74px;
     text-align: center;
     white-space: nowrap; /* Запрещаем перенос строк */
@@ -17,7 +17,8 @@
 }
 
 html {
-    margin: 0;
+    
+    font-family: Verdana, sans-serif;
 }
 
     
