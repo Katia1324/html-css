@@ -3,13 +3,13 @@
 }
 .gallery {
   display: flex;
+  overflow-x: scroll;
+  cursor: all-scroll;
 }
 .thumb {
   display: block;
   margin: 8px;
-  overflow-x: scroll;
-  cursor: all-scroll;
 }
 body {
-    display: flex;
+  display: flex;
 }
