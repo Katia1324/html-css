@@ -7,9 +7,11 @@ h1 {
     word-spacing: 20px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 900;
 }
 p {
     line-height: 28px;
+    font-weight: 400;
 }
 span {
     font-weight: bold;
@@ -17,4 +19,14 @@ span {
     font-size: 24px;
     opacity: 80%;
     text-decoration: underline;
+    font-weight: 400;
 }
+a {
+    text-decoration: none;
+    font-weight: 400;
+}
+em {
+    color: grey;
+    font-weight: 400;
+}
+
