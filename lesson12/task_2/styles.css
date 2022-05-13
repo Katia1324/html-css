@@ -1,0 +1,13 @@
+.header {
+    font-size: 74px;
+    text-align: center;
+}
+.centr {
+    height: 200px;
+    background: coral;
+    text-align: center;
+    color: white;
+    line-height: 200px;
+    vertical-align: middle;
+}
+
