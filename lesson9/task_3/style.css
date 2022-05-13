@@ -1,0 +1,26 @@
+body > div {
+  display: inline;
+  float: left;
+  width: 20%;
+}
+
+.block_red {
+  height: 200px;
+  background-color: red;
+}
+.block_green {
+  height: 200px;
+  background-color: green;
+}
+.block_blue {
+  height: 200px;
+  background-color: blue;
+}
+.block_yellow {
+  height: 200px;
+  background-color: yellow;
+}
+.block_black {
+  height: 200px;
+  background-color: black;
+}

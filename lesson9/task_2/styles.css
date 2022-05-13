@@ -1,0 +1,26 @@
+.container {
+  display: inline-block;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+section {
+  background: aquamarine;
+  padding: 16px;
+}
+
+footer {
+  height: 30px;
+  border: 2px solid black;
+}

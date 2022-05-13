@@ -1,0 +1,13 @@
+div.block {
+  height: 100px;
+  width: 100px;
+  min-width: 100px;
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin: 8px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}

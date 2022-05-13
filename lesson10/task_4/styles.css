@@ -1,0 +1,25 @@
+.block_black {
+  background-color: black;
+}
+.block_yellow {
+  background-color: yellow;
+}
+.block_blue {
+  background-color: blue;
+}
+.block_green {
+  background-color: green;
+}
+.block_red {
+  background-color: red;
+}
+
+div.block {
+  height: 300px;
+  width: 20%;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
