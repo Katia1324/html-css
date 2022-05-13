@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
-div.dropdown {
+.dropdown {
   margin: 16px;
   display: inline-block;
+  
+  
 }
 .menu-button {
   color: white;
@@ -34,7 +36,9 @@ div.dropdown {
   display: block;
   list-style: none;
 }
+.menu-item:hover {
+  background-color: ghostwhite;
+}
 .dropdown:hover .menu-list {
   display: block;
-  background-color: ghostwhite;
 }
