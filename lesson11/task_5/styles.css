@@ -5,9 +5,9 @@
   display: flex;
 }
 .thumb {
-  
+  display: block;
   margin: 8px;
-  overflow: scroll;
+  overflow-x: scroll;
   cursor: all-scroll;
 }
 body {
