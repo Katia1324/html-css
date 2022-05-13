@@ -1,5 +1,6 @@
 .header {
-    width: calc(50%);
+    margin: 0;
+    width: calc(55%);
     font-size: 74px;
     text-align: center;
     white-space: nowrap; /* Запрещаем перенос строк */
