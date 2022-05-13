@@ -1,0 +1,12 @@
+.displ {
+  display: inline-block;
+}
+
+.div1 {
+  display: grid;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+}
+.div1 {
+}
