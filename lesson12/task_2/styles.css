@@ -1,4 +1,5 @@
 .header {
+    line-height: 74px;
     margin: 0 auto;
     font-size: 74px;
     width: 50%;    
@@ -9,6 +10,7 @@
     text-overflow: ellipsis;
 }
 .centr {
+    margin: 0;
     height: 200px;
     background: coral;
     text-align: center;
