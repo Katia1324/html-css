@@ -1,7 +1,7 @@
 .checkbox {
   display: block;
   position: relative;
-  padding: 35px;
+  padding-left: 35px;
   font-size: 24px;
   margin: 16px;
 }
@@ -23,5 +23,4 @@ input[type="checkbox"] {
 }
 .checkbox input:checked + .checkmark {
     background-color: #006400;
-    
 }
