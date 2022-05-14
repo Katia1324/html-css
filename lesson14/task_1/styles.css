@@ -1,0 +1,12 @@
+body {
+  font-size: 18px;
+}
+.properties-list {
+  list-style: none;
+}
+.properties-list__item {
+  color: #f39;
+  font-size: 32px;
+  line-height: 32px;
+  padding: 8px;
+}
