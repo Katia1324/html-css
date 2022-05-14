@@ -3,9 +3,10 @@
   padding-left: 35px;
   font-size: 24px;
   display: block;
-  margin: 16px;
+  margin: auto 16px;
   width: 182px;
   height: 76px;
+
 }
 input[type='checkbox'] {
   visibility: hidden;
