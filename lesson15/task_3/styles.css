@@ -4,7 +4,7 @@
 .image {
     display: block;
     margin: 0 auto;
-    background-size: contain;
+    max-width: 100%;
 }
 .image-button {
     position: absolute;
