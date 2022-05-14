@@ -6,7 +6,7 @@
   margin: 16px 16px auto;
   width: 182px;
   height: 76px;
-  line-height: 76px;
+  
 
 }
 input[type='checkbox'] {
@@ -21,7 +21,7 @@ input[type='checkbox'] {
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 25px;
+ 
 }
 .checkbox input:checked + .checkmark {
   background-color: #006400;
