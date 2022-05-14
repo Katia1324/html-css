@@ -3,10 +3,10 @@
   padding-left: 35px;
   font-size: 24px;
   display: block;
-  margin: 16px 16px auto;
+  margin: 16px;
   width: 182px;
   height: 76px;
-  margin-top: 15px;
+  margin-left: 16px;
 
 }
 input[type='checkbox'] {
