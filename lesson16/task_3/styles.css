@@ -1,14 +1,12 @@
 .checkbox {
-  position: relative;
+  position: absolute;
   padding-left: 35px;
   font-size: 24px;
   display: block;
   margin: 16px;
-  width: 147px;
-  height: 76px;
-  
-
 }
+
+
 input[type='checkbox'] {
   visibility: hidden;
   width: 0;
