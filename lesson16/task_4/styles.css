@@ -6,7 +6,7 @@ html {
    
 }
 .login-form {
-    position: fixed; top: 49.5%; left: 50%;
+    position: fixed; top: 50%; left: 50%;
     transform: translate(-50%, -50%);
     background-color: aqua;
     font-size: 16px;
@@ -45,8 +45,7 @@ html {
     border-radius: 4px;
     display: inline-block;
 }
-n-top: 2px; 
-}
+
 
 
 
