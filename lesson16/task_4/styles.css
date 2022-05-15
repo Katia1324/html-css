@@ -6,8 +6,8 @@ html {
    
 }
 .login-form {
-    position: fixed; top: 50%; left: 50%;
-    transform: translate(-50%, -51%);
+    position: fixed; top: 49%; left: 50%;
+    transform: translate(-50%, -50%);
     background-color: aqua;
     font-size: 16px;
     font-family: monospace;
@@ -45,11 +45,7 @@ html {
     border-radius: 4px;
     display: inline-block;
 }
-.c1 {
-    margin-top: 1px;
-}
-.i1 {
-    margin-top: 2px; 
+n-top: 2px; 
 }
 
 
