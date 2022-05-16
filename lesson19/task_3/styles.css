@@ -1,0 +1,42 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+}
+.spinner {
+    margin: auto;
+}
+.spinner-text {
+    font-family: monospace;
+    font-size: 16px;
+    text-transform: uppercase;
+    animation: blinking 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes blinking {
+
+}
+
+.rect {
+    background-color: black;
+    height: 4px;
+    width: 10px;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+    border-radius: 2px;
+    animation: blinking 2s, moving 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
