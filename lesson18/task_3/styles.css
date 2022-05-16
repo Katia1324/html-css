@@ -1,19 +1,21 @@
-.fa-battery-full {
-  font-size: 16px;
-}
-.fa-battery-three-quarters {
-  font-size: 32px;
-}
-.fa-battery-half {
-  font-size: 64px;
-}
-.fa-battery-quarter {
-  font-size: 128px;
-}
-.fa-battery-empty {
-  font-size: 256px;
-}
 .battery {
   display: flex;
   justify-content: space-around;
 }
+i.fa.fa-battery-full {
+  font-size: 16px;
+}
+i.fa.fa-battery-three-quarters {
+  font-size: 32px;
+}
+i.fa.fa-battery-half {
+  font-size: 64px;
+}
+i.fa.fa-battery-quarter {
+  font-size: 128px;
+}
+i.fa.fa-battery-empty {
+  font-size: 256px;
+}
+
+
