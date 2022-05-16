@@ -1,26 +1,21 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .table {
-    width: 500px;
-    margin: 16px;    
+  width: 500px;
+  margin: 16px;
 }
 table,
 tfoot,
 tr,
 td,
 th {
-    border: 1px solid black;
-    border-collapse: collapse;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 tr,
 td,
 th {
-    padding: 4px;
-    text-align: right;
+  padding: 4px;
+  text-align: right;
 }
-
-
-
-
-
