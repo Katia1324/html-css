@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+.blok_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    line-height: 100px;
+    display: block;
+    text-align: center;
+}
+.block {
+    width: 250px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: coral;
+    margin: auto;
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    animation: move 2s;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease;
+
+
+}
+
+@keyframes move {
+    0% {
+       top: 0;
+    }
+    50% {
+        top: -100px;
+    }
+    100% {
+        top: calc(50vh-50px);
+    }
+}

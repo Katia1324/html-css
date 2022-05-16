@@ -32,7 +32,7 @@
     animation-timing-function: linear;
 }
 
-@keyframes move {
+@keyframes moving{
     from {
         left: 0;
     }
