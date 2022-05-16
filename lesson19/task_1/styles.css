@@ -8,16 +8,18 @@
     margin-bottom: 16px;
     background-color: coral;
     text-align: center;
+    line-height: 100px;
     opacity: 0.5;
     width: 100px;
     height: 100px;
+    transition-property: width, opacity;
+    transition-duration: 2s, 0.5s;  
+    transition-timing-function: 2s, 0.5s;
+
 }
 .rect:hover {
-    width: 100%;
-    transition: 2s;
-    opacity: 1;
-    transition: 0.5s;
-    animation-timing-function: linear;
+   width: 100%;
+   opacity: 1;   
 }
 
 
