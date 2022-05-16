@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+tr,
+td {
+    height: 50px;
+    width: 50px;
+}
+table {
+    margin: 16px;
+    text-align: center;
+}
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.row1 {
+    background-color: black;
+}
+.none {
+    border: none;
+}
+
