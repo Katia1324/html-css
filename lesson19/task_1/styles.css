@@ -14,12 +14,28 @@
     height: 100px;
     transition-property: width, opacity;
     transition-duration: 2s, 0.5s;  
-    transition-timing-function: 2s, 0.5s;
+    transition-timing-function: ;
 
 }
 .rect:hover {
    width: 100%;
    opacity: 1;   
+}
+.linear {
+    transition-timing-function: cubic-bezier(0, 0, 1, 1);
+}
+.ease {
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.ease-in {
+    transition-timing-function: cubic-bezier(0.42, 0, 1, 1);
+}
+.ease-out {
+    transition-timing-function: cubic-bezier(0, 0, 0.58, 1);
+}
+.ease-in-out {
+    transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+
 }
 
 
