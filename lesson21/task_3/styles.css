@@ -36,13 +36,13 @@ body {
   padding: 0.5em;
   width: 20%;
 }
-ul {
+.nav-list {
     padding: 0;
+    list-style: none;
 }
 .section {
   padding: 0.5em;
   width: 60%;
-  padding: 0;
 }
 .news {
   padding: 0.5em;
@@ -58,26 +58,26 @@ ul {
 .section {
     font-size: 1.25em;
     line-height: 1.75em;
+    padding-right: 0;
 }
 .section__header {
   display: flex;
   font-size: 5vw;
-  line-height: 5vw;
   justify-content: center;
 }
 .nav-list-item {
   padding: 0;
-  list-style: none;
   background-color: #808080;
   color: white;
   line-height: 2em;
   margin-bottom: 0.5em;
-  overflow: hidden;
+  text-overflow: hidden;
   text-overflow: ellipsis;
   text-overflow: initial;
 }
 .nav-list-link {
   padding-left: 0.5em;
+  padding-right: 0.5em;
   text-decoration: none;
   color: white;
 }
