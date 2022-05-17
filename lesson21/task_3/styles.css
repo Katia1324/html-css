@@ -37,8 +37,8 @@ body {
   width: 20%;
 }
 .nav-list {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 .section {
   padding: 0.5em;
@@ -47,7 +47,7 @@ body {
 .news {
   padding: 0.5em;
   width: 20%;
-  padding-right:0;
+  padding-right: 0;
 }
 .css-units {
   color: #8b0000;
@@ -56,9 +56,9 @@ body {
   font-weight: 700;
 }
 .section {
-    font-size: 1.25em;
-    line-height: 1.75em;
-    padding-right: 0;
+  font-size: 1.25em;
+  line-height: 1.75em;
+  padding-right: 0;
 }
 .section__header {
   display: flex;
@@ -72,9 +72,10 @@ body {
   color: white;
   line-height: 2em;
   margin-bottom: 0.5em;
-  text-overflow: hidden;
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
-  text-overflow: initial;
 }
 .nav-list-link {
   padding-left: 0.5em;
