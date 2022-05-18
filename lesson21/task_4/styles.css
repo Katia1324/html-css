@@ -55,7 +55,7 @@ body {
   font-size: 1.125em;
   font-weight: 700;
 }
-.main {
+.section {
   font-size: 1.25em;
   line-height: 1.75em;
   padding-right: 0;
@@ -63,7 +63,6 @@ body {
 .section__header {
   display: flex;
   font-size: 5vw;
-  line-height: 5vw;
   justify-content: center;
 }
 .nav-list-item {
