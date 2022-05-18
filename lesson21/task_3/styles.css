@@ -63,6 +63,7 @@ body {
 .section__header {
   display: flex;
   font-size: 5vw;
+  line-height: 5vw;
   justify-content: center;
 }
 .nav-list-item {
