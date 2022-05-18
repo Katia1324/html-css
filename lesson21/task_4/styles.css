@@ -62,6 +62,9 @@ body {
   font-size: 1.25em;
   line-height: 1.75em;
 }
+.units-list {
+  padding-right: 0;
+}
 .section__header {
   display: flex;
   font-size: 5vw;
