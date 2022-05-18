@@ -57,8 +57,10 @@ body {
 }
 .section {
   font-size: 1.25em;
+}
+.units-list {
+  font-size: 1.25em;
   line-height: 1.75em;
-  padding-right: 0;
 }
 .section__header {
   display: flex;
