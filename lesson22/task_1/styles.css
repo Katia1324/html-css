@@ -28,5 +28,9 @@
         flex-direction: column;
     }
 }
-    
+@media screen and (min-width: 600px) {
+    .square {
+        background-color: #8a2be2;
+    }
+}  
 
