@@ -10,34 +10,46 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Price Table</title>
   </head>
 
   <body>
-      <div class="table">
-          <div class="price-card-basic">
-              <div class="header basic">
-                <h1 class="price-card-basic-title">
-                    Basic
-                </h1>
-                <p class="price-card-basic-subtitle">
-                    Website
-                </p>
-              </div>
-              <div class="price-card-basic-price">
-                  99€
-              </div>
-          </div>
-          <div class="price-card-business">
-               <h1 class="price-card-basic-title">
-                    Business 
-                </h1>
-          </div>
-          <div class="price-card-webshop">
-               <h1 class="price-card-basic-title">
-                    Webshop
-                </h1>
-          </div>
+    <div class="table">
+      <div class="price-card">
+        <h1 class="price-card__title">
+          Basic
+          <span class="subtitle">Website</span>        
+        </h1>
+        <h2 class="price-card-price">99€</h2>
       </div>
+      <div class="price-card">
+        <div class="header-card">
+          <h1 class="price-card__title">
+            Business
+            <span class="subtitle">Website</span>
+          </h1>
+        </div>
+        <div class="price">
+          <h1 class="price-card-price">299€</h1>
+        </div>
+      </div>
+      <div class="price-card">
+        <div class="header-card">
+          <h1 class="price-card__title">
+            Webshop
+            <span class="subtitle">Website</span>
+          </h1>
+        </div>
+        <div class="price">
+          <h1 class="price-card-price">599€</h1>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
