@@ -63,7 +63,7 @@ body {
   line-height: 1.75em;
 }
 .units-list {
-  padding-right: 0;
+  padding-right: 0.5em;
 }
 .section__header {
   display: flex;
