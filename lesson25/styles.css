@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -15,31 +18,185 @@
     background: #334247;
     box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
-.header-card {
-    display: block;   
-    font-family: 'Montserrat', sans-serif;;
+.header { 
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin-bottom: 52px;
+    
 }
 .price-card__title {
-    color: white;
+   font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
     font-size: 35px;
     line-height: 43px;
-    font-weight: 700;
-    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
 }
 .subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
     font-size: 20px;
     line-height: 24px;
-}
-.price {
-    height: 105px;
-    background-color: #5BB189;
+    text-align: center;
+    color: #FFFFFF;
 }
 .price-card-price {
+    background-color: #5BB189; font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
     font-size: 55px;
-    line-height: 105px;
-  
-}
-div {
+    line-height: 67px;
+    text-align: center;
+    color: #FFFFFF;
     margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.price-card-price-business {
+    background-color: #3A6BA5; font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.price-card-price-Webshop {
+    background-color: #EC632A; 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.price-card__description {
+    margin: 40px 26px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.list-card-basic {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.list-card-basic-business {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.list-card-basic-webshop {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+ul > li{
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+    padding-left: 22px;
+    width: 380px;
+    height: 50px;
+    line-height: 50px;
+    list-style: none;
+}
+ul > li.list-card-basic:before{
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    position: absolute; top: 0; left: 0;
+    margin-right: 22px;
+}
+ul > li.list-card-basic-business:before{
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+    position: absolute; top: 0; left: 0;
+    margin-right: 22px;
+}
+ul > li.list-card-basic-webshop:before{
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+    position: absolute; top: 0; left: 0;
+    margin-right: 22px;
+}
+.price-car__order-button {
+    margin-bottom: 40px;
+    width: 155px;
+    height: 40px;
+    background: #5BB189;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    margin-top: 55px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price-car__order-button-business {
+    margin-bottom: 40px;
+    width: 155px;
+    height: 40px;
+    background: #3A6BA5;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 55px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.price-car__order-button-webshop {
+    margin-bottom: 40px;
+    width: 155px;
+    height: 40px;
+    background: #EC632A;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    margin-top: 55px;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.popular {
+    height: 19px;
+    width: 90px;
+    justify-content: center;
+    line-height: 19px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    background-color: #DC3F45;
+}
+span.popular {
+    -webkit-transform: rotate(45deg);
 }
