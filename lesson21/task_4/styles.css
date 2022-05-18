@@ -62,9 +62,6 @@ body {
   font-size: 1.25em;
   line-height: 1.75em;
 }
-.units-list {
-  padding-right: 0.5em;
-}
 .section__header {
   display: flex;
   font-size: 5vw;
@@ -86,4 +83,7 @@ body {
 .nav-list-link {
   text-decoration: none;
   color: white;
+}
+li {
+  line-height: 1.75em;
 }
