@@ -149,11 +149,8 @@ img {
     flex: 1;
     width: 100%;
     } 
-   .section {
+   .div {
        width: 80%;
-   }
-   .navigation {
-        width: 20%;
    }
    .news {
        width: 20%;
