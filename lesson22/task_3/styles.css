@@ -2,7 +2,8 @@ main {
     display: flex;
 }
 picture {
-    max-width: 100%;
-    max-height: 333px;
     margin: auto;
+}
+img {
+    max-width: 100%;
 }
