@@ -1,36 +1,38 @@
 .blok1 {
-    background: #ff7f50;
-    display: flex;
-    min-height: 200px;
+  background: #ff7f50;
+  display: flex;
+  min-height: 200px;
 }
 .blok2 {
-    background-color: #006400;
-    display: flex;
-    min-height: 200px;
+  background-color: #006400;
+  display: flex;
+  min-height: 200px;
 }
 .blok3 {
-    background-color: #0ff;
-    display: flex;
-    min-height: 200px;
+  background-color: #0ff;
+  display: flex;
+  min-height: 200px;
 }
 span {
-    text-transform: lowercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 8px;
-    background-color: #faebd7;
-    border-radius: 4px;
-    margin: auto;
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
 }
 @media screen and (min-width: 600px) {
-    .products {
-        display: flex;
-        flex-grow: 2;
-    }    
+  .products {
+    display: flex;
+    flex-grow: 2;
+  }
 }
 @media screen and (min-width: 900px) {
-    .content {
-        display: flex;
-        flex-direction: row;
-    	justify-content: space-around;
-    }
+  .content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    flex-grow: 1;
+  }
+ 
 }

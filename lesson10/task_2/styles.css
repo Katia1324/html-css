@@ -10,4 +10,5 @@ div.block {
 .container {
   display: flex;
   flex-wrap: wrap;
+  
 }
