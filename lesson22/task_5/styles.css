@@ -89,6 +89,7 @@ picture {
 }
 img {
     max-width: 100%;
+    max-height: 100%;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 @media screen and (max-width: 600px) {
@@ -121,14 +122,16 @@ img {
    }
    .div {
     display: flex;
-    flex: 2;
+    flex-direction: column
+   
+    flex: 1;
    }
-    .section {
+    .section, .navigation {
         width: 100%;
+        flex-wrap: wrap;
     } 
    .news {
        width: 100%;
    }
 }
-
 
