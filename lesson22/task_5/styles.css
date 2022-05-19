@@ -151,13 +151,17 @@ img {
     } 
    .div {
        width: 80%;
-   }
-   .section {
+       {
+        .section {
        width: 60%;
-   }
-   .navigation {
-       width: 20%;
-   }
+        }
+        .navigation {
+        width: 20%;
+        }
+    }
+    }
+   
+   
    .news {
        width: 20%;
    }
