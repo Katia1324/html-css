@@ -132,5 +132,26 @@ img {
        width: 100%;
    }
 }
+@media screen and (min-width: 1200px) {
+   body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    }
+    .main {
+    display: flex;
+    flex: 1;
+    } 
+   .section {
+       width: 80%;
+   }
+   .navigation {
+        width: 20%;
+   }
+   .news {
+       width: 20%;
+   }
+}
+
 
 
