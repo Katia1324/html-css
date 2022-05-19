@@ -110,27 +110,27 @@ img {
        width: 100%;
    }
 }
-@media screen and (max-width: 900px) {
-    body {
+@media screen and (min-width: 600px) {
+  body {
         display: block;
         width: 100%;
-   }  
-    .main {
+   } 
+   .main {
        display: block;
+   } 
+   .flexbox {
+       display: flex;
        width: 100%;
    }
-   .div {
-    display: flex;
-    flex-direction: column
-   
-    flex: 1;
+   .section {
+       width: 80%;
    }
-    .section, .navigation {
-        width: 100%;
-        flex-wrap: wrap;
-    } 
+   .navigation {
+        width: 20%;
+   }
    .news {
        width: 100%;
    }
 }
+
 
