@@ -2,16 +2,19 @@
   background: #ff7f50;
   display: flex;
   min-height: 200px;
+  flex-grow: 1;
 }
 .blok2 {
   background-color: #006400;
   display: flex;
   min-height: 200px;
+  flex-grow: 1;
 }
 .blok3 {
   background-color: #0ff;
   display: flex;
   min-height: 200px;
+  flex-grow: 1;
 }
 span {
   text-transform: lowercase;
@@ -24,17 +27,12 @@ span {
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    flex-grow: 2;
+    margin: auto;
+    flex-grow: 2;   
   }
 }
 @media screen and (min-width: 900px) {
   .content {
-    display: flex;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .content {
-    display: flex;
-    flex-direction: row;
+    display: flex;   
   }
 }
