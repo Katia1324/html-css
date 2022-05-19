@@ -3,12 +3,14 @@
   display: flex;
   min-height: 200px;
   flex-grow: 1;
+  flex-shrink: 0;
 }
 .blok2 {
   background-color: #006400;
   display: flex;
   min-height: 200px;
   flex-grow: 1;
+  flex-shrink: 0;
 }
 .blok3 {
   background-color: #0ff;
@@ -24,16 +26,21 @@ span {
   border-radius: 4px;
   margin: auto;
 }
+.content {
+    margin: 0 auto;
+}
+.products {
+    margin: 0 auto;
+}
 @media screen and (min-width: 600px) {
   .products {
     display: flex;
-    margin: auto;
-    flex-grow: 1;   
+    flex-grow: 2;  
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 900px) {
   .content {
-    display: flex;   
-    flex-grow: 2;
+    display: flex;
   }
 }
