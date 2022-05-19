@@ -86,7 +86,6 @@ li {
 }
 picture {
     display: flex;
-    max-height: 100%;
 }
 img {
     max-width: 100%;
