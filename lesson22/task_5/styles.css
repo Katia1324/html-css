@@ -88,6 +88,9 @@ img {
        display: flexbox;
        float: left;
        } 
+    .main {
+        flex: 1;
+    }
    .section {
        width: 80%;
    }
