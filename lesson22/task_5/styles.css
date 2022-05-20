@@ -90,12 +90,10 @@ img {
     .header {
         flex: 0 0 auto;
     }
-    .main {
-        flex: 1;
-    }
    .section, .navigation {
        display: flexbox;
        float: left;
+       flex: 0 0 auto;
        } 
    .section {
        width: 80%;
@@ -105,6 +103,7 @@ img {
    }
    .news {
        width: 100%;
+       flex: 1;
    }
    img {
        max-width: 100%;
