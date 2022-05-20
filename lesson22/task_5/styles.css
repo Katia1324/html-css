@@ -90,7 +90,6 @@ img {
    .section, .navigation {
        display: flexbox;
        float: left;
-       flex: 1;
        } 
     .main {
         flex: 1;
