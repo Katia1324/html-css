@@ -84,6 +84,9 @@ img {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 @media screen and (min-width: 600px) {
+    .header {
+        flex: 0 0 auto;
+    }
    .section, .navigation {
        display: flexbox;
        float: left;
