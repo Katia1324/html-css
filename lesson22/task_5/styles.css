@@ -102,6 +102,7 @@ img {
    }
    .news {
        width: 100%;
+       flex: 1;
    }
    img {
        max-width: 100%;
