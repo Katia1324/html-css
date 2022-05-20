@@ -90,6 +90,7 @@ img {
    .section, .navigation {
        display: flexbox;
        float: left;
+       flex: 1;
        } 
    .section {
        width: 80%;
@@ -99,7 +100,6 @@ img {
    }
    .news {
        width: 100%;
-       flex: 1;
    }
    img {
        max-width: 100%;
