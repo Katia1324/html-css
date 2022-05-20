@@ -10,7 +10,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  min-height: 100vh;
 }
 .header {
   color: white;
@@ -78,9 +78,6 @@ body {
 }
 li {
   line-height: 1.75em;
-}
-picture {
-    display: flex;
 }
 img {
     max-width: 100%;
