@@ -195,8 +195,22 @@ ul > li.list-card-basic-webshop:before{
     line-height: 17px;
     color: #FFFFFF;
     text-transform: uppercase;
-    background-color: #DC3F45;
+    background-image: url(./Rectangle\ 10.svg);
 }
-span.popular {
+.popular1 {
+    position:absolute;
     -webkit-transform: rotate(45deg);
+    margin-left: 310px;
+    margin-top: -60px;
+    line-height: 38px;
 }
+.pop {
+    position: absolute;
+    border-bottom: 20px solid red;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 35px;
+    margin-left: 302px;
+	width: 106px;
+}
+ 
