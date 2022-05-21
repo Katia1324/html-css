@@ -20,6 +20,7 @@
 }
 .menu__item {
   padding-left: 8px;
+  padding-right: 8px;
   line-height: 3em;
   align-items: center;
 }
