@@ -97,7 +97,7 @@ img {
   .navigation {
     display: flexbox;
     float: left;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .section {
     width: 80%;
